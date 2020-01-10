@@ -1,0 +1,57 @@
+dir=ls
+        ls for mac, dir for pc
+
+
+
+
+git init - initializes an empty git repository
+
+git add . - 
+
+git status - checks on status of w/empty
+
+git commit -m "initial Commit" sends and saves
+
+        <-- got off github -->
+        "echo "# flexbox-course" >> README.md
+        git init
+        git add README.md
+        git commit -m "first commit"
+        git remote add origin https://github.com/TysonBoren/flexbox-course.git
+        git push -u origin master"
+
+
+
+
+
+
+                                        Windows PowerShell
+                    Copyright (C) Microsoft Corporation. All rights reserved.
+
+                    Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+                    PS C:\Users\Tyson B\Desktop\development\bottega\01-module\flexbox-course> git init
+                    Initialized empty Git repository in C:/Users/Tyson B/Desktop/development/bottega/01-module/flexbox-course/.git/
+                    PS C:\Users\Tyson B\Desktop\development\bottega\01-module\flexbox-course> git add .
+                    PS C:\Users\Tyson B\Desktop\development\bottega\01-module\flexbox-course> git status
+                    On branch master
+
+                    No commits yet
+
+                    Changes to be committed:
+                    (use "git rm --cached <file>..." to unstage)
+                            new file:   hello-flexbox.html
+
+                    PS C:\Users\Tyson B\Desktop\development\bottega\01-module\flexbox-course> git commit -m "Initial Commit"
+                    [master (root-commit) 5b2eb0b] Initial Commit
+                    1 file changed, 1 insertion(+)
+                    create mode 100644 hello-flexbox.html
+                    PS C:\Users\Tyson B\Desktop\development\bottega\01-module\flexbox-course> 
+                    PS C:\Users\Tyson B\Desktop\development\bottega\01-module\flexbox-course> git status
+                    On branch master
+                    nothing to commit, working tree clean
+                    PS C:\Users\Tyson B\Desktop\development\bottega\01-module\flexbox-course> 
+
+
+
+
